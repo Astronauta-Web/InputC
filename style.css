@@ -1,0 +1,43 @@
+body {
+  background-color: #180161;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*Sirve para poder centrar los elemetos*/
+  min-height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #4F1787;
+  padding: 40px 80px;
+  border-radius: 20px;
+}
+
+label {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #FB773C;
+}
+
+/*Puse el div para poder darles el mismo fondo al input y al button*/
+
+div {
+  background-color: #EB3678;
+  border-radius: 10px;
+}
+
+input {
+  width: 20;
+  padding: 5px;
+  border: 2px solid #EB3678;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+button{
+  border: 2px solid #EB3678;
+  padding: 5px;
+  background-color: #EB3678;
+}
